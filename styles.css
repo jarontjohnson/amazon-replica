@@ -1,14 +1,35 @@
-h1 {
-    text-align: center
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roborto' , sans-serif;
+ }
+h1{
+    text-align: center;
+}
+
+h2 {
+    text-align: left
 }
 form{
-    padding:0 ;
-    margin: 0 ;
-    text-align:center
+    background-color: aqua;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 400px;
+    
+
 }
 .flex{
-    justify-content: baseline;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+.pass{
+    padding: 2px;
+    border: 2px solid black;
+    margin: 2px;
+    justify-content: space-between ;
 }
 p{
-    text-align: center;
+    text-align: left
 }
