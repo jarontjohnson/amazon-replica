@@ -48,13 +48,13 @@ create{
 }
 .foot{
     display: flex;
+    width: 400px;
     flex-direction: row;
     justify-content: space-evenly;
-    padding: 2px;
-    margin: 2px;
-    border: 2px;
+    border: 2px solid black
 }
 footer{
+    display: flex;
     align-items: center;
     justify-content: center;
 }
