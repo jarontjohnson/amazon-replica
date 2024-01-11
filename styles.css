@@ -11,11 +11,19 @@ h1{
 h2 {
     text-align: left
 }
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 form{
-    background-color: aqua;
+    width: 30vw;
+    height: 300px;
+    position: center;
+    background-color: lightgrey;
     padding: 10px;
     border: 2px solid black;
-    margin: 400px;
+    margin: 10px;
     
 
 }
@@ -32,4 +40,21 @@ form{
 }
 p{
     text-align: left
+}
+create{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 2px;
+    margin: 2px;
+    border: 2px;
+}
+footer{
+    align-items: center;
+    justify-content: center;
 }
