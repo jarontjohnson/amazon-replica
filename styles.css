@@ -1,0 +1,14 @@
+h1 {
+    text-align: center
+}
+form{
+    padding:0 ;
+    margin: 0 ;
+    text-align:center
+}
+.flex{
+    justify-content: baseline;
+}
+p{
+    text-align: center;
+}
